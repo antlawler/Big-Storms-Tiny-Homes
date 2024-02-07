@@ -5,7 +5,7 @@
             <element type="button" id="bttnPrint" icon_width="14" icon_height="14" visible="false"/>
             <element type="button" id="bttnOutline" icon_width="13" icon_height="13" paddingTop="1" visible="false"/>
             <element type="button" id="bttnDownload" icon_width="14" icon_height="14" visible="false"/>
-            <element type="button" id="bttnSocialShare" height="21" icon_width="14" icon_height="14" visible="true" paddingTop="0"/>
+            <element type="button" id="bttnSocialShare" height="21" icon_width="14" icon_height="14" visible="false" paddingTop="0"/>
             <element type="button" id="bttnPlay" height="21" icon_width="15" icon_height="15" visible="false" paddingTop="0"/>
             <element type="button" id="bttnBookView" height="19" icon_width="15" icon_height="15" paddingLeft="15" visible="false"/>
             <element type="button" id="bttnSinglePage" height="19" paddingLeft="0" icon_width="13" icon_height="13" paddingRight="15" visible="false"/>
