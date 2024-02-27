@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><FlowPaper_Zine_UIConfiguration>
     <desktop>
-        <general imageAssets="assets_zine/material/" backgroundColor="#444444" panelColor="#eb8b1a" arrowColor="#fcc605" backgroundAlpha="0" navPanelBackgroundAlpha="1" enableZoomNavigator="true" enableFisheyeThumbnails="false" enableBalloonSlider="true" selectionColor="#AAAAAA" rollOverColor="#999999" fitModeScale="0.85" fitModeScaleMargin="-0.1" navPanelsVisible="true" zoomDragMode="true" bindBindNavigationKeys="true" readOnly="false" disableMouseWheel="false" disableZoom="false" disableSharingURL="false" flipSpeed="Medium" flipSound="None" flipAnimation="3D, Hard" startWithTOCOpen="false" firstLastButtonsVisible="false" bindBrowserNavKeys="false" backgroundImage="" stretchBackgroundImage="true" enablePageShadows="true" linkColor="#72e6ff" arrowSize="12" linkAlpha="00"/>
+        <general imageAssets="assets_zine/material/" backgroundColor="#444444" panelColor="#eb8b1a" arrowColor="#fcc605" backgroundAlpha="0" navPanelBackgroundAlpha="1" enableZoomNavigator="false" enableFisheyeThumbnails="false" enableBalloonSlider="true" selectionColor="#AAAAAA" rollOverColor="#999999" fitModeScale="0.85" fitModeScaleMargin="-0.1" navPanelsVisible="false" zoomDragMode="true" bindBindNavigationKeys="true" readOnly="false" disableMouseWheel="false" disableZoom="true" disableSharingURL="false" flipSpeed="Slow" flipSound="None" flipAnimation="3D, Hard" startWithTOCOpen="false" firstLastButtonsVisible="false" bindBrowserNavKeys="false" backgroundImage="" stretchBackgroundImage="true" enablePageShadows="true" linkColor="#72e6ff" arrowSize="12" linkAlpha="0.4"/>
         <toolbar height="40" width="100%" paddingTop="9" paddingLeft="15" paddingRight="15" paddingBottom="8" backgroundColor="#555555" borderColor="#eb8b1a" borderStyle="solid" borderThickness="1" cornerRadius="3" horizontalAlign="center" location="top" visible="true">
             <element type="button" id="bttnPrint" icon_width="14" icon_height="14" visible="false"/>
             <element type="button" id="bttnOutline" icon_width="13" icon_height="13" paddingTop="1" visible="false"/>
@@ -24,7 +24,7 @@
         </toolbar>
     </desktop>
     <tablet>
-        <general imageAssets="assets_zine/material/mobile/" backgroundColor="#444444" zoomDragMode="true" enableBalloonSlider="true" readOnly="false" disableMouseWheel="false" disableZoom="false" disableSharingURL="false" flipSpeed="Medium" flipSound="None" flipAnimation="3D, Hard" panelColor="#eb8b1a" enableFisheyeThumbnails="false" startWithTOCOpen="false" navPanelsVisible="true" firstLastButtonsVisible="false" bindBindNavigationKeys="true" bindBrowserNavKeys="false" backgroundImage="" enableZoomNavigator="true" stretchBackgroundImage="true" enablePageShadows="true" arrowColor="#fcc605" navPanelBackgroundAlpha="1" backgroundAlpha="0" linkColor="#72e6ff" arrowSize="12" linkAlpha="00"/>
+        <general imageAssets="assets_zine/material/mobile/" backgroundColor="#444444" zoomDragMode="true" enableBalloonSlider="true" readOnly="false" disableMouseWheel="false" disableZoom="true" disableSharingURL="false" flipSpeed="Slow" flipSound="None" flipAnimation="3D, Hard" panelColor="#eb8b1a" enableFisheyeThumbnails="false" startWithTOCOpen="false" navPanelsVisible="false" firstLastButtonsVisible="false" bindBindNavigationKeys="true" bindBrowserNavKeys="false" backgroundImage="" enableZoomNavigator="false" stretchBackgroundImage="true" enablePageShadows="true" arrowColor="#fcc605" navPanelBackgroundAlpha="1" backgroundAlpha="0" linkColor="#72e6ff" arrowSize="12" linkAlpha="0.4"/>
         <toolbar gradients="false" height="46" paddingTop="4" paddingBottom="3">
             <element type="button" id="bttnOutline" paddingLeft="15" icon_height="30" icon_width="30" visible="false"/>
             <element type="button" id="bttnPrint" icon_height="39" icon_width="39" visible="false"/>
@@ -34,18 +34,18 @@
             <element type="button" id="bttnThumbView" icon_height="30" icon_width="30" visible="false"/>
             <element type="button" id="bttnZoomIn" icon_height="30" icon_width="30" visible="false"/>
             <element type="button" id="bttnZoomOut" icon_height="30" icon_width="30" visible="false"/>
-            <element type="button" id="bttnFullscreen" icon_height="30" icon_width="30" visible="false"/>
-            <element type="button" id="bttnPrevPage" icon_height="30" icon_width="30" visible="false"/>
+            <element type="button" id="bttnFullscreen" icon_height="30" icon_width="30" visible="true"/>
+            <element type="button" id="bttnPrevPage" icon_height="30" icon_width="30" visible="true"/>
             <element type="textinput" id="txtPageNumber" marginTop="3" readonly="false" visible="false"/>
             <element type="label" id="lblTotalPages" marginTop="6" visible="false"/>
-            <element type="button" id="bttnPrevNext" icon_height="30" icon_width="30" visible="false"/>
+            <element type="button" id="bttnPrevNext" icon_height="30" icon_width="30" visible="true"/>
             <element type="textinput" id="txtSearch" marginTop="3" visible="false"/>
             <element type="button" id="bttnFind" icon_width="30" icon_height="30" visible="false"/>
             <element type="button" id="bttnMore" icon_width="30" icon_height="30" visible="false"/>
         </toolbar>
     </tablet>
     <mobile>
-        <general imageAssets="assets_zine/material/mobile/" backgroundColor="#444444" zoomDragMode="true" panelColor="transparent" enableBalloonSlider="true" readOnly="false" disableMouseWheel="false" disableZoom="false" disableSharingURL="false" flipSpeed="Medium" flipSound="None" flipAnimation="3D, Hard" enableFisheyeThumbnails="false" startWithTOCOpen="false" navPanelsVisible="true" firstLastButtonsVisible="false" bindBindNavigationKeys="true" bindBrowserNavKeys="false" backgroundImage="" enableZoomNavigator="true" stretchBackgroundImage="true" enablePageShadows="true" arrowColor="#fcc605" navPanelBackgroundAlpha="1" backgroundAlpha="0" linkColor="#72e6ff" arrowSize="12" linkAlpha="00"/>
+        <general imageAssets="assets_zine/material/mobile/" backgroundColor="#444444" zoomDragMode="true" panelColor="transparent" enableBalloonSlider="true" readOnly="false" disableMouseWheel="false" disableZoom="true" disableSharingURL="false" flipSpeed="Slow" flipSound="None" flipAnimation="3D, Hard" enableFisheyeThumbnails="false" startWithTOCOpen="false" navPanelsVisible="false" firstLastButtonsVisible="false" bindBindNavigationKeys="true" bindBrowserNavKeys="false" backgroundImage="" enableZoomNavigator="false" stretchBackgroundImage="true" enablePageShadows="true" arrowColor="#fcc605" navPanelBackgroundAlpha="1" backgroundAlpha="0" linkColor="#72e6ff" arrowSize="12" linkAlpha="0.4"/>
         <toolbar gradients="false" height="46" paddingTop="4" paddingBottom="3">
             <element type="button" id="bttnOutline" paddingLeft="15" icon_height="30" icon_width="30" visible="false"/>
             <element type="button" id="bttnPrint" icon_height="39" icon_width="39" visible="false"/>
@@ -55,7 +55,7 @@
             <element type="button" id="bttnThumbView" icon_height="30" icon_width="30" visible="false"/>
             <element type="button" id="bttnZoomIn" icon_height="30" icon_width="30" visible="false"/>
             <element type="button" id="bttnZoomOut" icon_height="30" icon_width="30" visible="false"/>
-            <element type="button" id="bttnFullscreen" icon_height="30" icon_width="30" visible="false"/>
+            <element type="button" id="bttnFullscreen" icon_height="30" icon_width="30" visible="true"/>
             <element type="button" id="bttnPrevPage" icon_height="25" icon_width="25" visible="false"/>
             <element type="textinput" id="txtPageNumber" marginTop="2" readonly="false" background="transparent" border="0" color="#ffffff" visible="false"/>
             <element type="label" id="lblTotalPages" marginTop="7" width="max-content" visible="false"/>
